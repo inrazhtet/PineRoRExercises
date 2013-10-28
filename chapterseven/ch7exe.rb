@@ -26,6 +26,7 @@ while stat != 'BYE'
 		puts 'HUH?! SPEAK UP, SONNY!'
 	end
 end
+puts 'BYE, Sweetie!'
 
 # Exercise 3
 stat = ''
@@ -45,6 +46,7 @@ while (count != 3)
 		puts 'HUH?! SPEAK UP, SONNY!'
 	end
 end
+puts 'BYE, Sweetie!'
 
 #Exercise 4
 puts 'Type in the starting year'
@@ -52,6 +54,7 @@ syear = gets.chomp.to_i
 puts 'Type in the ending year'
 eyear = gets.chomp.to_i
 lyear = syear
+puts 'Check it out, these are the leap years'
 while (lyear<= eyear)
 	if (lyear%100 == 0)
 		if (lyear%400 == 0)
@@ -63,4 +66,5 @@ while (lyear<= eyear)
 	end
 	lyear = lyear + 1
 end	
+
 

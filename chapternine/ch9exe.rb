@@ -33,11 +33,11 @@ puts
 puts wets_bed
 
 
-Old school Roman numerals
-My attempt. I actually did not get what the Roman Numerals were all about
-until I checked at the end of the book for some answers.
-I am sending a note to the author on giving us some sample examples of
-what the old numerals are like.
+#Old school Roman numerals
+#My attempt. I actually did not get what the Roman Numerals were all about
+#until I checked at the end of the book for some answers.
+#I am sending a note to the author on giving us some sample examples of
+#what the old numerals are like.
 
 def oldrconv number
 	set = [1,5,10,50,100,500,1000]
